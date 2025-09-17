@@ -11,7 +11,7 @@ A small, production-style pipeline that shows you can design, deploy, and operat
 
 2. The API writes a job to a queue and records it in a database.
 
-3. A worker picks up the job, processes the image (MVP = mark as “done”; later = resize/convert), and updates the DB.
+3. A worker picks up the job, processes the image and updates the DB.
 
 4. The user checks job status via the API.
 
