@@ -3,7 +3,7 @@ This is a training project that shows how to build and run an image processing p
 
 It’s designed to practice and demonstrate modern DevOps skills (Docker, Kubernetes, Helm, ArgoCD, observability, and autoscaling).
 
-# What k8-snap is trying to achieve
+## What k8-snap is trying to achieve
 
 A small, production-style pipeline that shows you can design, deploy, and operate a cloud-native system:
 
@@ -15,6 +15,6 @@ A small, production-style pipeline that shows you can design, deploy, and operat
 
 4. The user checks job status via the API.
 
-# High-level flow 
+## High-level flow 
 
 Client => HTTP /upload => API => Queue => Worker (process job) => Postgres => HTTP /job/{id}
